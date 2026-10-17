@@ -6,3 +6,4 @@ def test_login(username, password):
 
 print(test_login("student1", "pass123"))   # expected: Login Successful
 print(test_login("student1", "wrong"))     # expected: Invalid Credentials
+print(test_login("", ""))   # expected: Invalid Credentials (empty fields)
